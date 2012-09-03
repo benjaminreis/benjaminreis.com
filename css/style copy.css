@@ -1,0 +1,134 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #0099CC;
+}
+
+#headbar ul {
+	    margin: 0; 
+        padding: 10px; 
+        list-style-type: none; 
+        //text-align: center; 
+        background-color: #000; 
+        margin-right:650px;
+		margin-left:100px;
+		margin-top:10px;
+		border:1px solid ;
+		border-color:#ffcc00;
+
+
+
+}
+ 
+#headbar ul li {  
+        display: inline; 
+
+        } 
+#headbar ul li a { 
+        text-decoration: none; 
+        padding: .2em 1em; 
+        padding-left: 50px;
+        color: #fff; 
+        background-color: #000; 
+        } 
+
+
+ #navbar ul { 
+        margin: 0; 
+        
+        padding: 10px; 
+        list-style-type: none; 
+        //text-align: right; 
+        background-color: #000; 
+        margin-right:450px;
+		margin-left:100px;
+				margin-top:5px;
+		padding-left: 250px;
+		border:1px solid ;
+		border-color:#ffcc00;
+
+        } 
+ 
+#navbar ul li {  
+        display: inline; 
+        } 
+ 
+#navbar ul li a { 
+
+        text-decoration: none; 
+        padding: .2em 1em; 
+        padding-left: 20px;
+
+        color: #fff; 
+        background-color: #000; 
+        } 
+ 
+#navbar ul li a:hover { 
+        color: #000; 
+        background-color: #ffcc00; 
+        } 
+ #thirdbar ul {
+ 		min-height: 10px;
+	    margin: 0; 
+        padding: 15px; 
+        list-style-type: none; 
+        //text-align: center; 
+        background-color: #000; 
+        margin-right:150px;
+		margin-left:100px;
+		margin-top:5px;
+		border:1px solid ;
+		border-color:#ffcc00;
+
+}
+
+#flipbox {
+  margin-left:100px;
+  margin-top:15px;
+  width: 800px;
+  height: 500px;
+  line-height: 200px;
+  background-color: #ff9000;
+  font-family: 'ChunkFive Regular', Tahoma, Helvetica;
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  //background-image:url('/images/benFountain.jpg');
+}
+#flipPad {
+  margin: 15px 0;
+  margin-left:150px;
+  width: 900px;
+  //text-align: center;
+}
+#flipPad a {
+
+  padding: 5px 45px;
+  margin-left:20px;
+  background: #1e90ff;
+  border: 2px solid #1e90ff;
+  border-radius: 2px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Helvetica, Tahoma, Verdana, sans-serif;
+  line-height: 30px;
+  height: 30px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-box-shadow: 1px 1px 2px #999999;
+  -webkit-box-shadow: 1px 1px 2px #999999;
+  -webkit-transition-duration: 1s;
+}
+#flipPad a:hover {
+  background-color: #ff9000;
+  border: 2px solid #ff9000;
+}
+#flipPad .revert {
+  background-color: #ff9000;
+  border: 2px solid #ff9000;
+  display: none;
+}

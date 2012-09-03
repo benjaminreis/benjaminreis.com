@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>benjaminreis.com</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	
+<!-- <script type="text/javascript" src="js/keypress_nav.js"></script> -->
+
+
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function()
+	{
+			// hides all DIVs with the CLASS container
+	// and displays the one with the ID 'home' only
+	$(".container").css("display","none");
+	$("#home").css("display","block");
+	
+	// makes the navigation work after all containers have bee hidden 
+	showViaLink($("ul#navigation li a"));
+
+	});
+
+	
+
+		function showViaLink(array)
+		{
+			array.each(function(i)
+		{	
+			$(this).click(function()
+			{
+				var target = $(this).attr("href");
+				$(".container").css("display","none");
+				$(target).slideDown("slow");
+			});
+		});
+		}
+
+		</script>
+</head>
+
+<body>
+
+<div id="headbar"> 
+  <ul> 
+        <li><a href="index.html">benjaminreis.com</a></li> 
+ 
+  </ul> 
+</div> 
+
+<div id="navbar"> 
+			<ul id="navigation">
+				<li><a href="#home">Home </a></li>
+				<li><a href="#about">About </a></li>
+				<li><a href="#interests">Interests </a></li>
+				<li><a href="#family">Family </a></li>
+			</ul>
+
+</div> 
+
+
+<!--
+<div id="thirdbar"> 
+  <ul> 
+        <li></li> 
+
+  </ul> 
+</div> 
+-->	
+		<div id="home" class="container">
+			<h2>Welcome!</h2>
+			<img src="./images/reis59.jpg" alt="some_text" height="450"/>
+			<p>Some Text</p>
+		</div>
+		<div id="about" class="container">
+			<h2>About Me</h2>
+			<p>Some Text</p></p>
+		</div>
+		<div id="interests" class="container">
+			<h2>No Spam Please</h2>
+			<p>Some Text</p>
+		</div>
+		<div id="family" class="container">
+			<h2>My Family</h2>
+			<img src="./images/reis-35.jpg" alt="some_text" width="600"/>
+
+			<p>Some Text</p>
+		</div>
+
+
+<br>
+
+
+</body>
+</html>

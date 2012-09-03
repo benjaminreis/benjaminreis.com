@@ -1,0 +1,137 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+  margin: 0; padding: 0; border: 0; 
+}
+
+body {
+  background: #0099CC;
+}
+
+#headbar ul {
+      margin: 0; 
+        padding: 10px; 
+        list-style-type: none; 
+        //text-align: center; 
+        background-color: #000; 
+        margin-right:650px;
+    margin-left:100px;
+    margin-top:10px;
+    border:2px solid ;
+    border-color:#fdc700;
+
+
+
+}
+ 
+#headbar ul li {  
+        display: inline; 
+
+        } 
+#headbar ul li a { 
+        text-decoration: none; 
+        padding: .2em 1em; 
+        padding-left: 50px;
+        color: #fff; 
+        background-color: #000; 
+        } 
+
+
+ #navbar ul { 
+        margin: 0; 
+        
+        padding: 10px; 
+        list-style-type: none; 
+        //text-align: right; 
+        background-color: #000; 
+        margin-right:50px;
+    margin-left:100px;
+        margin-top:5px;
+    padding-left: 250px;
+    border:2px solid ;
+    border-color:#fdc700;
+
+        } 
+ 
+#navbar ul li {  
+        display: inline; 
+        } 
+ 
+#navbar ul li a { 
+
+        text-decoration: none; 
+        padding: .2em 1em; 
+        padding-left: 20px;
+
+        color: #fff; 
+        background-color: #000; 
+        } 
+ 
+#navbar ul li a:hover { 
+        color: #000; 
+        background-color: #fdc700; 
+        } 
+ #thirdbar ul {
+    min-height: 10px;
+      margin: 0; 
+        padding: 15px; 
+        list-style-type: none; 
+        //text-align: center; 
+        background-color: #000; 
+        margin-right:150px;
+    margin-left:100px;
+    margin-top:5px;
+    border:1px solid ;
+    border-color:#ffcc00;
+      border: 5px solid #fff;
+
+
+
+}
+
+/* Containers
+-------------------------------------------------- */
+
+.container
+{
+  width: 700px;
+  height: 500px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: 7px solid #fff;
+  color: #fff;
+  font-size: .75em;
+  line-height: 2em;
+}
+
+.container h2
+{
+  padding: 5px 10px;
+  width: 200px;
+}
+
+#home   { background: #fdc700; }
+#home h2  { background: #bd9200; }
+#about    { background: #98c313; } 
+#about h2 { background: #6f9a00; } 
+#interests  { background: #f80083; }
+#interests h2 { background: #af005e; }
+#family   { background: #f18300; }
+#family h2  { background: #bb5f00; }
+
+.container img { margin:10px 10px 10px 0px  ;}
+
+
+
+/* Self-Clearing Rules 
+-------------------------------------------------- */
+
+ul#navigation:after 
+{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+
+* html ul#navigation  { height: 1px; }
+ul#navigation       { min-height: 1px; }
